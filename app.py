@@ -14,7 +14,7 @@ st.markdown("Explore trends and patterns in Netflix movies and TV shows.")
 # -------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\Users\VARSHINI R\OneDrive\Documents\netflix data analysis")
+    df = pd.read_csv("netflix_titles.csv")
     df['date_added'] = pd.to_datetime(df['date_added'])
     df['year_added'] = df['date_added'].dt.year
     df['month_added'] = df['date_added'].dt.month
@@ -79,3 +79,4 @@ st.subheader("Filtered Data Table")
 st.dataframe(filtered_df)
 
 st.markdown("📌 **Dashboard created with Streamlit**")
+
