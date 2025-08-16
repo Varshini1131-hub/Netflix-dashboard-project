@@ -14,7 +14,6 @@ This project showcases an end-to-end data analysis and visualization of Netflix 
 
 ## Live Demo
 
-- ## Live Demo
 
 Check out the interactive Netflix dashboard here:([https://your-live-demo-link.com](https://netflix-dashboard-project-879btxqjt7mytak2osckr8.streamlit.app/))
 
